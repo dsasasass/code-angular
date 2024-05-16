@@ -1,0 +1,43 @@
+  /* .logo{
+    text-align: center;
+    margin: 2px;
+  } */
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    
+    color: rgb(43, 41, 41);
+  }
+  
+  .tasks {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* background-color: rgb(195, 195, 209); */
+  }
+  
+  .task {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
+  .task h2 {
+    margin-bottom: 10px;
+  }
+  
+  .task p {
+    margin: 0;
+  }
+  /* .logo{
+    background-size: auto;
+  }   */
+  body{
+    background-image: url(../../assets/photo/image.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+
+  }
+ 

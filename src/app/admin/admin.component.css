@@ -1,0 +1,18 @@
+
+  /* Styliser le bouton de déconnexion */
+  .btn {
+    color: #f6f9fd;
+    border-color: #f5f7fc;
+
+  }
+  .btn:hover {
+    color: #fff;
+    background-color: #db43cf;
+    border-color: #3e6994;
+  }
+  button {
+    margin-left: 70%;
+}
+header{
+    background-color: rgb(91, 53, 230);
+}

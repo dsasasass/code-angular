@@ -1,0 +1,42 @@
+<div class="not"><br><br><br>
+  <form [formGroup]="inscriptionForm" (ngSubmit)="onSubmit()">
+   <div class="logo"><img class="img-responsive" src="../../assets/photo/final.png"></div>
+   <h3>inscription</h3>
+         <div>
+           <label for="nom"></label>
+           <input type="text" id="nom" formControlName="nom"   placeholder="Nom" />
+          
+         </div>
+         <div>
+           <label for="prenom"></label>
+           <input type="text" id="prenom"formControlName="prenom"   placeholder="prenom"/>
+           
+         </div>
+         <div>
+           <label for="adresse_email"> </label>
+           <input type="email" id="adresse_email" formControlName ="adresse_email"   placeholder=" Adresse email"/>
+          
+        
+         </div>
+
+         <div>
+          <label for="num_telephone"> </label>
+          <input type="num_telephone" id="num_telephone" formControlName ="num_telephone"  placeholder=" telephone"/>
+         
+        </div>
+         <div>
+           <label for="mot_de_passe"></label>
+           <input type="password" id="mot_de_passe" formControlName="mot_de_passe"   placeholder=" mot de passe"/>
+          
+         </div>
+         <div>
+           <label for="confirm-password"></label>
+           <input type="password" id="confirm-password" formControlName="confirmPassword"  placeholder="Confirmer le mot de passe"/>
+           
+         </div>
+         <div>
+           <button type="submit" [disabled]="!inscriptionForm.valid">S'inscrire</button>
+         </div>
+        
+       <br><br><br>
+     </div>

@@ -1,0 +1,22 @@
+<div class="not"><br><br><br>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="logo"><img class="img-responsive" src="../../assets/photo/final.png"></div>
+    <h3>connexion</h3>
+    <label>
+      <input type="email" formControlName="email" placeholder="adresse email">
+    </label>
+    <br>
+
+    <br>
+    <label>
+
+      <input type="password" formControlName="password" placeholder="mot de passe">
+    </label>
+    <br>
+
+    <br>
+    <button type="submit" [disabled]="!form.valid">se connecte</button>
+    <br>
+    <a href="#inscription" (click)="changeRoute($event, 'inscription')">s'inscrire</a>
+  </form><br><br>
+</div>
